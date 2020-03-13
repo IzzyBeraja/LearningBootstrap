@@ -1,0 +1,11 @@
+#header {
+    display: flex;
+
+    button {
+        background-color: $primary-button-color;
+
+        &:hover {
+            background-color: red($color: #000000);
+        }
+    }
+}

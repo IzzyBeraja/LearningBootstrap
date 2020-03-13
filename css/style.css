@@ -1,1 +1,37 @@
-/* No CSS */
+#header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#header button {
+  background-color: #1cc440;
+}
+
+#header button:hover {
+  background-color: 0;
+}
+
+#skills {
+  text-align: center;
+}
+
+#skills h1 {
+  margin-bottom: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#skills img {
+  width: 100px;
+  height: 100px;
+  vertical-align: middle;
+}
+
+#skills .row-0R {
+  background-color: lightblue;
+}
+
+#skills .row-0L {
+  background-color: yellow;
+}
