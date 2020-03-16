@@ -1,25 +1,60 @@
-
 #skills {
+	.container-fluid {
+		background-color: rgb(58, 58, 58);
+		color: white;
+	}
 
-    text-align: center;
+	text-align: center;
+	overflow-x: hidden;
 
-    h1 {
-        margin-bottom: 0;
-        display: inline-block;       
-        vertical-align: middle;
-    }
+	.row {
+		//? Is this the best way to do this?
+		//? Should look into other possibilities.
+		@media (min-width: $tablet) {
+			height: (100vh / 3.5);
+		}
+	}
 
-    img {
-        width: 100px;
-        height: 100px;
-        vertical-align: middle;
-    }
+	h1 {
+		visibility: hidden;
+		margin-bottom: 0;
+		display: inline-block;
+		vertical-align: middle;
+		padding: 0 5rem;
 
-    .row-0R {
-        background-color: lightblue;
-    }
+		@media (min-width: $tablet) {
+			visibility: visible;
+		}
+	}
 
-    .row-0L {
-        background-color: yellow;
-    }
+	img {
+		width: 15rem;
+		height: 15rem;
+		//padding: 2rem;
+		vertical-align: middle;
+	}
+
+	.c0R {
+		background-color: lightblue;
+	}
+
+	.c0L {
+		background-color: yellow;
+	}
+
+	.c1L {
+		background-color: orange;
+	}
+
+	.c1R {
+		background-color: blue;
+	}
+
+	.c2L {
+		background-color: aliceblue;
+	}
+
+	.c2R {
+		background-color: bisque;
+	}
 }

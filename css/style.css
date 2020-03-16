@@ -1,37 +1,59 @@
-#header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-#header button {
-  background-color: #1cc440;
-}
-
-#header button:hover {
-  background-color: 0;
-}
-
 #skills {
   text-align: center;
+  overflow-x: hidden;
+}
+
+#skills .container-fluid {
+  background-color: #3a3a3a;
+  color: white;
+}
+
+@media (min-width: 769px) {
+  #skills .row {
+    height: 28.57143vh;
+  }
 }
 
 #skills h1 {
+  visibility: hidden;
   margin-bottom: 0;
   display: inline-block;
   vertical-align: middle;
+  padding: 0 5rem;
+}
+
+@media (min-width: 769px) {
+  #skills h1 {
+    visibility: visible;
+  }
 }
 
 #skills img {
-  width: 100px;
-  height: 100px;
+  width: 15rem;
+  height: 15rem;
   vertical-align: middle;
 }
 
-#skills .row-0R {
+#skills .c0R {
   background-color: lightblue;
 }
 
-#skills .row-0L {
+#skills .c0L {
   background-color: yellow;
+}
+
+#skills .c1L {
+  background-color: orange;
+}
+
+#skills .c1R {
+  background-color: blue;
+}
+
+#skills .c2L {
+  background-color: aliceblue;
+}
+
+#skills .c2R {
+  background-color: bisque;
 }
